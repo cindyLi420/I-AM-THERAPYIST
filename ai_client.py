@@ -289,6 +289,7 @@ if 'username' not in st.session_state or st.session_state.username == '':
     if submit_button:
         if username_input:
             st.session_state.username = username_input
+            st.experimental_rerun()  # 重新运行脚本，更新界面
         else:
             st.error("用户名不能为空")
 
