@@ -10,7 +10,7 @@ import json
 import urllib.parse
 
 os.environ["OPENAI_API_BASE"] = 'https://api.openai.com/v1'
-os.environ["OPENAI_API_KEY"] = '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'
+os.environ["OPENAI_API_KEY"] = 'sk-Oes9btpXWnm8R2MD8Ptog25sdAsAIjt6DidUEoW12JT3BlbkFJx5DFruLZPf8aUisbgGQEldqbOgSzCfKUFfJ9b1HAwA'
 
 
 # 初始化代理实现
